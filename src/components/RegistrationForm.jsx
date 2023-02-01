@@ -36,7 +36,7 @@ export default function RegistrationForm() {
           email: '',
           phone: '',
           website: '',
-          createdOn: new Date(),
+          createdOn: new Date().toLocaleString(),
 }}
         validationSchema={registrationSchema}
         validateOnBlur
@@ -86,6 +86,7 @@ export default function RegistrationForm() {
         )}
 
       </Formik>
+      {console.log('yup', )}
     </>
   )
 }
