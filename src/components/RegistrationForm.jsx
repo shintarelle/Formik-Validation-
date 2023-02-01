@@ -86,7 +86,6 @@ export default function RegistrationForm() {
         )}
 
       </Formik>
-      {console.log('yup', )}
     </>
   )
 }
