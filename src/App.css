@@ -1,0 +1,24 @@
+.form-wrapper {
+  padding: 30px;
+  background-color: aliceblue;
+  width: 600px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.label {
+  color: rgb(94, 93, 93);
+  padding: 0 20px;
+}
+.btn {
+  width: 80px;
+  height: 25px;
+  border-radius: 5px;
+  background-color: rgb(212, 252, 252);
+}
+.errormessage {
+  color: red;
+}
